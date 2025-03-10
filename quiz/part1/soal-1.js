@@ -22,6 +22,8 @@
 let name = "";
 let role = "";
 
+//code disini gunakan console.log untuk outputnya
+
 // input name and name checker process
 do {
     // input name, show prompt dialogue
@@ -52,10 +54,8 @@ do {
                 // if the player choose unavailable role
                 console.log(`Hello ${name} kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada`);
             }
-        // while role are empty, loop the input process and show again dialogue prompt
+            // while role are empty, loop the input process and show again dialogue prompt
         } while (!role);
     }
 // while name are empty, loop the input process and show again dialogue prompt
 } while (!name);
-
-//code disini gunakan console.log untuk outputnya

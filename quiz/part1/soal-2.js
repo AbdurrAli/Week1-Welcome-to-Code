@@ -16,6 +16,8 @@ let date = 0; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 
 let month = ""; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
 let year = 0; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
+//code switch case kamu disini
+
 // input date, month and year with checking process
 do {
     // input date
@@ -120,5 +122,3 @@ do {
     }
     // while date aren't meet with valid condition, process will do looping process
 } while (!date || isNaN(date));
-
-//code switch case kamu disini
