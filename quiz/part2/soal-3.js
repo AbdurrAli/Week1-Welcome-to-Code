@@ -5,10 +5,10 @@ let word3 = 'wow JavaScript is so cool';
 // chunking string like before, but using substring() methods
 // substring are methods that used to extract character between to indices from string.
 let exampleFirstWord = word3.substring(0, 3);
-let exampleSecondWord = word3.substring(4, 15);
-let exampleThirdWord = word3.substring(15, 18);
+let exampleSecondWord = word3.substring(4, 14);
+let exampleThirdWord = word3.substring(15, 17);
 let exampleFourthWord = word3.substring(18, 20);
-let exampleFifthWord = word3.substring(20, 25);
+let exampleFifthWord = word3.substring(21, 25);
 
 
 console.log('First Word: ' + exampleFirstWord);

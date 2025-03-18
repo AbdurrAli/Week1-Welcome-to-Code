@@ -5,7 +5,7 @@
 let word4 = 'wow JavaScript is so cool';
 // chunking string like before, using substring() methods
 let exampleFirstWord = word4.substring(0, 3);
-let exampleSecondWord = word4.substring(4, 15);
+let exampleSecondWord = word4.substring(4, 14);
 let exampleThirdWord = word4.substring(15, 17);
 let exampleFourthWord = word4.substring(18, 20);
 let exampleFifthWord = word4.substring(21, 25);
