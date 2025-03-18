@@ -114,11 +114,11 @@ do {
                         // if year filled with valid input, console log
                         console.log(`${date} ${month} ${year}`);
                     }
-                    // while year aren't meet with valid condition, process will do looping process
+                    // while year aren't meet with valid condition, users must input with valid year range
                 } while (!year || (year < 1900 || year > 2200));
             }
-            // while month aren't meet with valid condition, process will do looping process
+            // while month aren't meet with valid condition, users must fill with valid month range
         } while (!month || month > 12);
     }
-    // while date aren't meet with valid condition, process will do looping process
+    // while date aren't meet with valid condition, users must fill with valid date
 } while (!date || isNaN(date));
